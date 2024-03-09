@@ -1,0 +1,633 @@
+Script started on Thu Mar  7 12:06:17 2024
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hffrop  f forger   script script. /DeployFundMe.s.sol[1m [0m[0m [?2004l
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...3[2K[1m[[32m⠒[0m][0m Compiling...
+3[2K[1m[[32m⠢[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠃[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠊[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 2 files with 0.8.24
+3[2K[1m[[32m⠢[0m][0m Solc 0.8.24 finished in 946.88ms
+Compiler run [32msuccessful![0m
+[32mScript ran successfully.[0m
+Gas used: 24394
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004httet  fforge test --v  v  vv[?2004l
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...3[2K[1m[[32m⠒[0m][0m Compiling...
+3[2K[1m[[32m⠢[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠃[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠊[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠢[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 1 files with 0.8.24
+3[2K[1m[[32m⠔[0m][0m Solc 0.8.24 finished in 1.20s
+Compiler run [32msuccessful![0m
+
+Ran 3 tests for test/FundMeTest.t.sol:FundMeTest
+[32m[PASS][0m testMinimumDollarIsFive() (gas: 5405)
+[32m[PASS][0m testOwnerIsMsgSender() (gas: 11816)
+Logs:
+  0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496
+  0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38
+
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 8019)
+Suite result: [31mFAILED[0m. [32m2[0m passed; [31m1[0m failed; [33m0[0m skipped; finished in 4.49ms (919.17µs CPU time)
+
+Ran 1 test suite in 169.55ms (4.49ms CPU time): [32m2[0m tests passed, [31m1[0m failed, [33m0[0m skipped (3 total tests)
+
+Failing tests:
+Encountered 1 failing test in test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 8019)
+
+Encountered a total of [31m1[0m failing tests, [32m2[0m tests succeeded
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hfforget test 0-  -m [7mtestPriceFeedVersionIsAccurate[27m[30D[27mt[27me[27ms[27mt[27mP[27mr[27mi[27mc[27me[27mF[27me[27me[27md[27mV[27me[27mr[27ms[27mi[27mo[27mn[27mI[27ms[27mA[27mc[27mc[27mu[27mr[27ma[27mt[27me -vv[?2004l
+zsh: command not found: forget
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforget test -m testPriceFeedVersionIsAccurate -vv-v[?2004l
+zsh: command not found: forget
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforget test -m testPriceFeedVersionIsAccurate -vv-v  v[?2004l
+zsh: command not found: forget
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforget test -m testPriceFeedVersionIsAccurate -vvv[31D[P[44C [45D[?2004l
+[1m[31merror:[0m unexpected argument '[33m-m[0m' found
+
+[1m[4mUsage:[0m [1mforge test[0m [OPTIONS]
+
+For more information, try '[1m--help[0m'.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hfforget  test -m [7mtestPriceFeedVersionIsAccurate[27m[30D[27mt[27me[27ms[27mt[27mP[27mr[27mi[27mc[27me[27mF[27me[27me[27md[27mV[27me[27mr[27ms[27mi[27mo[27mn[27mI[27ms[27mA[27mc[27mc[27mu[27mr[27ma[27mt[27me[?2004l
+[1m[31merror:[0m unexpected argument '[33m-m[0m' found
+
+[1m[4mUsage:[0m [1mforge test[0m [OPTIONS]
+
+For more information, try '[1m--help[0m'.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hfforge test --ghl   help[?2004l
+Run the project's tests
+
+[1m[4mUsage:[0m [1mforge test[0m [OPTIONS]
+
+[1m[4mOptions:[0m
+  [1m-h[0m, [1m--help[0m
+          Print help (see a summary with '-h')
+
+[1m[4mTest options:[0m
+      [1m--debug[0m <TEST_FUNCTION>
+          Run a test in the debugger.
+          
+          The argument passed to this flag is the name of the test function you want to run, and it works the same as --match-test.
+          
+          If more than one test matches your specified criteria, you must add additional filters until only one test is found (see --match-contract and --match-path).
+          
+          The matching test will be opened in the debugger regardless of the outcome of the test.
+          
+          If the matching test is a fuzz test, then it will open the debugger on the first failure case. If the fuzz test does not fail, it will open the debugger on the last fuzz case.
+          
+          For more fine-grained control of which fuzz case is run, see forge run.
+
+      [1m--gas-report[0m
+          Print a gas report
+          
+          [env: FORGE_GAS_REPORT=]
+
+      [1m--allow-failure[0m
+          Exit with code 0 even if a test fails
+          
+          [env: FORGE_ALLOW_FAILURE=]
+
+      [1m--fail-fast[0m
+          Stop running tests after the first failure
+
+      [1m--etherscan-api-key[0m <KEY>
+          The Etherscan (or equivalent) API key
+          
+          [env: ETHERSCAN_API_KEY=]
+
+      [1m--fuzz-seed[0m <FUZZ_SEED>
+          Set seed used to generate randomness during your fuzz runs
+
+      [1m--fuzz-runs[0m <RUNS>
+          [env: FOUNDRY_FUZZ_RUNS=]
+
+[1m[4mDisplay options:[0m
+  [1m-j[0m, [1m--json[0m
+          Output test results in JSON format
+
+  [1m-l[0m, [1m--list[0m
+          List tests instead of running them
+
+      [1m--summary[0m
+          Print test summary table
+
+      [1m--detailed[0m
+          Print detailed test summary table
+
+[1m[4mTest filtering:[0m
+      [1m--match-test[0m <REGEX>
+          Only run test functions matching the specified regex pattern
+          
+          [aliases: mt]
+
+      [1m--no-match-test[0m <REGEX>
+          Only run test functions that do not match the specified regex pattern
+          
+          [aliases: nmt]
+
+      [1m--match-contract[0m <REGEX>
+          Only run tests in contracts matching the specified regex pattern
+          
+          [aliases: mc]
+
+      [1m--no-match-contract[0m <REGEX>
+          Only run tests in contracts that do not match the specified regex pattern
+          
+          [aliases: nmc]
+
+      [1m--match-path[0m <GLOB>
+          Only run tests in source files matching the specified glob pattern
+          
+          [aliases: mp]
+
+      [1m--no-match-path[0m <GLOB>
+          Only run tests in source files that do not match the specified glob pattern
+          
+          [aliases: nmp]
+
+[1m[4mEVM options:[0m
+  [1m-f[0m, [1m--fork-url[0m <URL>
+          Fetch state over a remote endpoint instead of starting from an empty state.
+          
+          If you want to fetch state from a specific block number, see --fork-block-number.
+          
+          [aliases: rpc-url]
+
+      [1m--fork-block-number[0m <BLOCK>
+          Fetch state from a specific block number over a remote endpoint.
+          
+          See --fork-url.
+
+      [1m--fork-retries[0m <RETRIES>
+          Number of retries.
+          
+          See --fork-url.
+
+      [1m--fork-retry-backoff[0m <BACKOFF>
+          Initial retry backoff on encountering errors.
+          
+          See --fork-url.
+
+      [1m--no-storage-caching[0m
+          Explicitly disables the use of RPC caching.
+          
+          All storage slots are read entirely from the endpoint.
+          
+          This flag overrides the project's configuration file.
+          
+          See --fork-url.
+
+      [1m--initial-balance[0m <BALANCE>
+          The initial balance of deployed test contracts
+
+      [1m--sender[0m <ADDRESS>
+          The address which will be executing tests
+
+      [1m--ffi[0m
+          Enable the FFI cheatcode
+
+      [1m--always-use-create-2-factory[0m
+          Use the create 2 factory in all cases including tests and non-broadcasting scripts
+
+  [1m-v[0m, [1m--verbosity[0m...
+          Verbosity of the EVM.
+          
+          Pass multiple times to increase the verbosity (e.g. -v, -vv, -vvv).
+          
+          Verbosity levels:
+          - 2: Print logs for all tests
+          - 3: Print execution traces for failing tests
+          - 4: Print execution traces for all tests, and setup traces for failing tests
+          - 5: Print execution and setup traces for all tests
+
+[1m[4mFork config:[0m
+      [1m--compute-units-per-second[0m <CUPS>
+          Sets the number of assumed available compute units per second for this provider
+          
+          default value: 330
+          
+          See also --fork-url and https://docs.alchemy.com/reference/compute-units#what-are-cups-compute-units-per-second
+
+      [1m--no-rpc-rate-limit[0m
+          Disables rate limiting for this node's provider.
+          
+          See also --fork-url and https://docs.alchemy.com/reference/compute-units#what-are-cups-compute-units-per-second
+          
+          [aliases: no-rate-limit]
+
+[1m[4mExecutor environment config:[0m
+      [1m--gas-limit[0m <GAS_LIMIT>
+          The block gas limit
+
+      [1m--code-size-limit[0m <CODE_SIZE>
+          EIP-170: Contract code size limit in bytes. Useful to increase this because of tests. By default, it is 0x6000 (~25kb)
+
+      [1m--chain[0m <CHAIN>
+          The chain name or EIP-155 chain ID
+          
+          [aliases: chain-id]
+
+      [1m--gas-price[0m <GAS_PRICE>
+          The gas price
+
+      [1m--block-base-fee-per-gas[0m <FEE>
+          The base fee in a block
+          
+          [aliases: base-fee]
+
+      [1m--tx-origin[0m <ADDRESS>
+          The transaction origin
+
+      [1m--block-coinbase[0m <ADDRESS>
+          The coinbase of the block
+
+      [1m--block-timestamp[0m <TIMESTAMP>
+          The timestamp of the block
+
+      [1m--block-number[0m <BLOCK>
+          The block number
+
+      [1m--block-difficulty[0m <DIFFICULTY>
+          The block difficulty
+
+      [1m--block-prevrandao[0m <PREVRANDAO>
+          The block prevrandao value. NOTE: Before merge this field was mix_hash
+
+      [1m--block-gas-limit[0m <GAS_LIMIT>
+          The block gas limit
+
+      [1m--memory-limit[0m <MEMORY_LIMIT>
+          The memory limit per EVM execution in bytes. If this limit is exceeded, a `MemoryLimitOOG` result is thrown.
+          
+          The default is 128MiB.
+
+      [1m--isolate[0m
+          Whether to enable isolation of calls. In isolation mode all top-level calls are executed as a separate transaction in a separate EVM context, enabling more precise gas accounting
+          and transaction state changes
+
+[1m[4mCache options:[0m
+      [1m--force[0m
+          Clear the cache and artifacts folder and recompile
+
+[1m[4mBuild options:[0m
+      [1m--no-cache[0m
+          Disable the cache
+
+[1m[4mLinker options:[0m
+      [1m--libraries[0m <LIBRARIES>
+          Set pre-linked libraries
+          
+          [env: DAPP_LIBRARIES=]
+
+[1m[4mCompiler options:[0m
+      [1m--ignored-error-codes[0m <ERROR_CODES>
+          Ignore solc warnings by error code
+
+      [1m--deny-warnings[0m
+          Warnings will trigger a compiler error
+
+      [1m--no-auto-detect[0m
+          Do not auto-detect the `solc` version
+
+      [1m--use[0m <SOLC_VERSION>
+          Specify the solc version, or a path to a local solc, to build with.
+          
+          Valid values are in the format `x.y.z`, `solc:x.y.z` or `path/to/solc`.
+
+      [1m--offline[0m
+          Do not access the network.
+          
+          Missing solc versions will not be installed.
+
+      [1m--via-ir[0m
+          Use the Yul intermediate representation compilation pipeline
+
+      [1m--silent[0m
+          Don't print anything on startup
+
+      [1m--ast[0m
+          Includes the AST as JSON in the compiler output
+
+      [1m--evm-version[0m <VERSION>
+          The target EVM version
+
+      [1m--optimize[0m
+          Activate the Solidity optimizer
+
+      [1m--optimizer-runs[0m <RUNS>
+          The number of optimizer runs
+
+      [1m--extra-output[0m <SELECTOR>...
+          Extra output to include in the contract's artifact.
+          
+          Example keys: evm.assembly, ewasm, ir, irOptimized, metadata
+          
+          For a full description, see https://docs.soliditylang.org/en/v0.8.13/using-the-compiler.html#input-description
+
+      [1m--extra-output-files[0m <SELECTOR>...
+          Extra output to write to separate files.
+          
+          Valid values: metadata, ir, irOptimized, ewasm, evm.assembly
+
+[1m[4mProject options:[0m
+  [1m-o[0m, [1m--out[0m <PATH>
+          The path to the contract artifacts folder
+
+      [1m--revert-strings[0m <REVERT>
+          Revert string configuration.
+          
+          Possible values are "default", "strip" (remove), "debug" (Solidity-generated revert strings) and "verboseDebug"
+
+      [1m--build-info[0m
+          Generate build info files
+
+      [1m--build-info-path[0m <PATH>
+          Output path to directory that build info files will be written to
+
+      [1m--root[0m <PATH>
+          The project's root path.
+          
+          By default root of the Git repository, if in one, or the current working directory.
+
+  [1m-C[0m, [1m--contracts[0m <PATH>
+          The contracts source directory
+
+  [1m-R[0m, [1m--remappings[0m <REMAPPINGS>
+          The project's remappings
+
+      [1m--remappings-env[0m <ENV>
+          The project's remappings from the environment
+
+      [1m--cache-path[0m <PATH>
+          The path to the compiler cache
+
+      [1m--lib-paths[0m <PATH>
+          The path to the library folder
+
+      [1m--hardhat[0m
+          Use the Hardhat-style project layout.
+          
+          This is the same as using: `--contracts contracts --lib-paths node_modules`.
+          
+          [aliases: hh]
+
+      [1m--config-path[0m <FILE>
+          Path to the config file
+
+[1m[4mWatch options:[0m
+  [1m-w[0m, [1m--watch[0m [<PATH>...]
+          Watch the given files or directories for changes.
+          
+          If no paths are provided, the source and test directories of the project are watched.
+
+      [1m--no-restart[0m
+          Do not restart the command while it's still running
+
+      [1m--run-all[0m
+          Explicitly re-run all tests when a change is made.
+          
+          By default, only the tests of the last modified test file are executed.
+
+      [1m--watch-delay[0m <DELAY>
+          File update debounce delay.
+          
+          During the delay, incoming change events are accumulated and only once the delay has passed, is an action taken. Note that this does not mean a command will be started: if
+          --no-restart is given and a command is already running, the outcome of the action will be to do nothing.
+          
+          Defaults to 50ms. Parses as decimal seconds by default, but using an integer with the `ms` suffix may be more convenient.
+          
+          When using --poll mode, you'll want a larger duration, or risk overloading disk I/O.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hfforge test --match-test[7mtestPriceFeedVersionIsAccurate[27m[30D[27mt[27me[27ms[27mt[27mP[27mr[27mi[27mc[27me[27mF[27me[27me[27md[27mV[27me[27mr[27ms[27mi[27mo[27mn[27mI[27ms[27mA[27mc[27mc[27mu[27mr[27ma[27mt[27m [41D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C testPriceFeedVersionIsAccurat[29D[?2004l
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...3[2K[1m[[32m⠒[0m][0m Compiling...3[2K[1m[[32m⠢[0m][0m Compiling...
+No files changed, compilation skipped
+
+Ran 1 test for test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 8019)
+Suite result: [31mFAILED[0m. [32m0[0m passed; [31m1[0m failed; [33m0[0m skipped; finished in 4.78ms (443.04µs CPU time)
+
+Ran 1 test suite in 175.69ms (4.78ms CPU time): [32m0[0m tests passed, [31m1[0m failed, [33m0[0m skipped (1 total tests)
+
+Failing tests:
+Encountered 1 failing test in test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 8019)
+
+Encountered a total of [31m1[0m failing tests, [32m0[0m tests succeeded
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforge test --match-test testPriceFeedVersionIsAccurat -vvv[?2004l
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...3[2K[1m[[32m⠒[0m][0m Compiling...
+No files changed, compilation skipped
+
+Ran 1 test for test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 8019)
+Traces:
+  [8019] [31mFundMeTest[0m::[31mtestPriceFeedVersionIsAccurate[0m()[33m[0m
+    ├─ [2983] [31mFundMe[0m::[31mgetVersion[0m()[33m [staticcall][0m
+    │   ├─ [0] [32m0x694AA1769357215DE4FAC081bf1f309aDC325306[0m::[32mversion[0m()[33m [staticcall][0m
+    │   │   └─ [32m← [0m()
+    │   └─ [31m← [0mEvmError: Revert
+    └─ [31m← [0mEvmError: Revert
+
+Suite result: [31mFAILED[0m. [32m0[0m passed; [31m1[0m failed; [33m0[0m skipped; finished in 1.02ms (264.50µs CPU time)
+
+Ran 1 test suite in 166.02ms (1.02ms CPU time): [32m0[0m tests passed, [31m1[0m failed, [33m0[0m skipped (1 total tests)
+
+Failing tests:
+Encountered 1 failing test in test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 8019)
+
+Encountered a total of [31m1[0m failing tests, [32m0[0m tests succeeded
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforge test --match-test testPriceFeedVersionIsAccurat -vvv --fork-url=#   $SEPR  POLIC A_PR  RPC_URL                                                                              f  e ec o  h o [1C #  $    e  s so r u  u   u r c e [1C . e n v [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004heecho # $SEPOLICA  A_RPC(R  _RU  URL: [?2004l
+https://eth-mainnet.g.alchemy.com/v2/1xWeTFzQsQ1R-hFZgngVqS_H1GbtpHaD
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hecho $SEPOLIA_RPC_URL[21Dsource .env          [9D[12Dforge test --match-test testPriceFeedVersionIsAccurat -vvv --forg k-e test $SEPOLIA_RPC) _URL[?2004l
+[1m[31merror:[0m unexpected argument '[33m--fork-test[0m' found
+
+  [32mtip:[0m a similar argument exists: '[32m--fork-retries[0m'
+
+[1m[4mUsage:[0m [1mforge test[0m [1m--verbosity[0m... [1m--fork-retries[0m <RETRIES> <--match-test <REGEX>|--no-match-test <REGEX>|--match-contract <REGEX>|--no-match-contract <REGEX>|--match-path <GLOB>|--no-match-path <GLOB>>
+
+For more information, try '[1m--help[0m'.
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforge test --match-test testPriceFeedVersionIsAccurat -vvv --fork-test $SEPOLIA_RPC_URL[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18Du $SEPOLIA_RPC_URL[17Dr $SEPOLIA_RPC_URL[17Dl $SEPOLIA_RPC_URL[17D[?2004l
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...3[2K[1m[[32m⠒[0m][0m Compiling...
+3[2K[1m[[32m⠢[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠃[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠊[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠢[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 1 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 1 files with 0.8.24
+3[2K[1m[[32m⠔[0m][0m Solc 0.8.24 finished in 1.20s
+Compiler run [32msuccessful![0m
+
+Ran 1 test for test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 8019)
+Traces:
+  [8019] [31mFundMeTest[0m::[31mtestPriceFeedVersionIsAccurate[0m()[33m[0m
+    ├─ [2983] [31mFundMe[0m::[31mgetVersion[0m()[33m [staticcall][0m
+    │   ├─ [0] [32m0x694AA1769357215DE4FAC081bf1f309aDC325306[0m::[32mversion[0m()[33m [staticcall][0m
+    │   │   └─ [32m← [0m()
+    │   └─ [31m← [0mEvmError: Revert
+    └─ [31m← [0mEvmError: Revert
+
+Suite result: [31mFAILED[0m. [32m0[0m passed; [31m1[0m failed; [33m0[0m skipped; finished in 1.83s (236.64ms CPU time)
+
+Ran 1 test suite in 2.98s (1.83s CPU time): [32m0[0m tests passed, [31m1[0m failed, [33m0[0m skipped (1 total tests)
+
+Failing tests:
+Encountered 1 failing test in test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 8019)
+
+Encountered a total of [31m1[0m failing tests, [32m0[0m tests succeeded
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforge test --match-test testPriceFeedVersionIsAccurat -vvv --fork-url $SEPOLIA_RPC_URL[15D[11D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D[1C[P[25C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D[1C[P[25C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D[1C[P[25C [28D[1C[P[25C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28Dc--fork-url $SEPOLIA_RPC_URL[27Do--fork-url $SEPOLIA_RPC_URL[27Dv--fork-url $SEPOLIA_RPC_URL[27De--fork-url $SEPOLIA_RPC_URL[27Dr--fork-url $SEPOLIA_RPC_URL[27Da--fork-url $SEPOLIA_RPC_URL[27Dg--fork-url $SEPOLIA_RPC_URL[27De--fork-url $SEPOLIA_RPC_URL[27D --fork-url $SEPOLIA_RPC_URL[27D[?2004l
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...3[2K[1m[[32m⠒[0m][0m Compiling...
+3[2K[1m[[32m⠢[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠃[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠊[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠢[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠃[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠊[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠢[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠃[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠊[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠢[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 26 files with 0.8.24
+3[2K[1m[[32m⠔[0m][0m Solc 0.8.24 finished in 3.29s
+Compiler run [32msuccessful![0m
+Analysing contracts...
+Running tests...
+| File                      | % Lines      | % Statements | % Branches    | % Funcs     |
+|---------------------------|--------------|--------------|---------------|-------------|
+| script/DeployFundMe.s.sol |[38;5;9m 0.00% (0/2)  [39m|[38;5;9m 0.00% (0/2)  [39m|[38;5;7m[2m 100.00% (0/0) [0m|[38;5;9m 0.00% (0/1) [39m|
+| src/FundMe.sol            |[38;5;9m 0.00% (0/12) [39m|[38;5;9m 0.00% (0/17) [39m|[38;5;9m 0.00% (0/4)   [39m|[38;5;9m 0.00% (0/4) [39m|
+| src/PriceConverter.sol    |[38;5;9m 0.00% (0/6)  [39m|[38;5;9m 0.00% (0/11) [39m|[38;5;7m[2m 100.00% (0/0) [0m|[38;5;9m 0.00% (0/2) [39m|
+| Total                     |[38;5;9m 0.00% (0/20) [39m|[38;5;9m 0.00% (0/30) [39m|[38;5;9m 0.00% (0/4)   [39m|[38;5;9m 0.00% (0/7) [39m|
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforge coverage --fork-url $SEPOLIA_RPC_URL[42D                                          [42Dforge coverage --fork-url $SEPOLIA_RPC_URL[?2004l
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...3[2K[1m[[32m⠒[0m][0m Compiling...
+3[2K[1m[[32m⠢[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 26 files with 0.8.24
+3[2K[1m[[32m⠃[0m][0m Solc 0.8.24 finished in 547.22ms
+Error: 
+[31mCompiler run [31mfailed:[0m
+[1;31mError (6160)[0m[1;37m: Wrong argument count for function call: 0 arguments given but expected 1.[0m
+  [34m-->[0m test/FundMeTest.t.sol:11:18:
+[34m   |[0m
+[34m11 |[0m         fundMe = [33mnew FundMe()[0m;
+[34m   |[0m                  [1;33m^^^^^^^^^^^^[0m
+[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforge coverage --fork-url $SEPOLIA_RPC_URL[?2004l
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...3[2K[1m[[32m⠒[0m][0m Compiling...
+3[2K[1m[[32m⠢[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠃[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠊[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠢[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠃[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠊[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠢[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠃[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠊[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠢[0m][0m Compiling 26 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 26 files with 0.8.24
+3[2K[1m[[32m⠰[0m][0m Solc 0.8.24 finished in 3.26s3[2K[1m[[32m⠔[0m][0m Solc 0.8.24 finished in 3.26s
+Compiler run [32msuccessful![0m
+Analysing contracts...
+Running tests...
+| File                      | % Lines      | % Statements | % Branches    | % Funcs     |
+|---------------------------|--------------|--------------|---------------|-------------|
+| script/DeployFundMe.s.sol |[38;5;9m 0.00% (0/3)  [39m|[38;5;9m 0.00% (0/3)  [39m|[38;5;7m[2m 100.00% (0/0) [0m|[38;5;9m 0.00% (0/1) [39m|
+| src/FundMe.sol            |[38;5;9m 0.00% (0/11) [39m|[38;5;9m 0.00% (0/15) [39m|[38;5;9m 0.00% (0/4)   [39m|[38;5;9m 0.00% (0/4) [39m|
+| src/PriceConverter.sol    |[38;5;9m 0.00% (0/5)  [39m|[38;5;9m 0.00% (0/9)  [39m|[38;5;7m[2m 100.00% (0/0) [0m|[38;5;9m 0.00% (0/2) [39m|
+| Total                     |[38;5;9m 0.00% (0/19) [39m|[38;5;9m 0.00% (0/27) [39m|[38;5;9m 0.00% (0/4)   [39m|[38;5;9m 0.00% (0/7) [39m|
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforge coverage --fork-url $SEPOLIA_RPC_URL[36Dtest --match-test testPriceFeedVersionIsAccurat -vvv --fork-url $SEPOLIA_RPC_URL[?2004l
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...3[2K[1m[[32m⠒[0m][0m Compiling...
+3[2K[1m[[32m⠢[0m][0m Compiling 4 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 4 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 4 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 4 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 4 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 4 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 4 files with 0.8.243[2K[1m[[32m⠃[0m][0m Compiling 4 files with 0.8.243[2K[1m[[32m⠊[0m][0m Compiling 4 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 4 files with 0.8.243[2K[1m[[32m⠢[0m][0m Compiling 4 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 4 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 4 files with 0.8.24
+3[2K[1m[[32m⠔[0m][0m Solc 0.8.24 finished in 1.20s
+Compiler run [32msuccessful![0m
+
+Ran 1 test for test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 10135)
+Traces:
+  [10135] [31mFundMeTest[0m::[31mtestPriceFeedVersionIsAccurate[0m()[33m[0m
+    ├─ [5099] [31mFundMe[0m::[31mgetVersion[0m()[33m [staticcall][0m
+    │   ├─ [0] [32m0x694AA1769357215DE4FAC081bf1f309aDC325306[0m::[32mversion[0m()[33m [staticcall][0m
+    │   │   └─ [32m← [0m()
+    │   └─ [31m← [0mEvmError: Revert
+    └─ [31m← [0mEvmError: Revert
+
+Suite result: [31mFAILED[0m. [32m0[0m passed; [31m1[0m failed; [33m0[0m skipped; finished in 1.94s (266.22ms CPU time)
+
+Ran 1 test suite in 3.17s (1.94s CPU time): [32m0[0m tests passed, [31m1[0m failed, [33m0[0m skipped (1 total tests)
+
+Failing tests:
+Encountered 1 failing test in test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 10135)
+
+Encountered a total of [31m1[0m failing tests, [32m0[0m tests succeeded
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforge test --match-test testPriceFeedVersionIsAccurat -vvv --fork-url $SEPOLIA_RPC_URL[80Dcoverage[44P[28C                                            [44D[36Dtest --match-test testPriceFeedVersionIsAccurat -vvv --fork-url $SEPOLIA_RPC_URL[16D[11D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D[1C[P[25C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D[1C[P[25C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D-[P[26C [28D[1C[P[25C [28D[1C[P[25C [28D-[P[26C [28D --fork-url $SEPOLIA_RPC_URL[27D[?2004l
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...3[2K[1m[[32m⠒[0m][0m Compiling...
+3[2K[1m[[32m⠢[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠃[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠊[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠢[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 2 files with 0.8.24
+3[2K[1m[[32m⠔[0m][0m Solc 0.8.24 finished in 1.22s
+Compiler run [33msuccessful with warnings:[0m
+[1;33mWarning (6321)[0m[1;37m: Unnamed return variable can remain unassigned. Add an explicit return with value to all non-reverting code paths or name the variable.[0m
+ [34m-->[0m script/DeployFundMe.s.sol:9:38:
+[34m  |[0m
+[34m9 |[0m     function run() external returns ([33mFundMe[0m) {
+[34m  |[0m                                      [1;33m^^^^^^[0m
+
+[1;33mWarning (2072)[0m[1;37m: Unused local variable.[0m
+  [34m-->[0m script/DeployFundMe.s.sol:11:9:
+[34m   |[0m
+[34m11 |[0m         [33mFundMe fundMe[0m = new FundMe(0x694AA1769357215DE4FAC081bf1f309aDC325306);
+[34m   |[0m         [1;33m^^^^^^^^^^^^^[0m
+
+
+Ran 3 tests for test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: EvmError: Revert][0m testMinimumDollarIsFive() (gas: 5144)
+[31m[FAIL. Reason: EvmError: Revert][0m testOwnerIsMsgSender() (gas: 5187)
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 5142)
+Suite result: [31mFAILED[0m. [32m0[0m passed; [31m3[0m failed; [33m0[0m skipped; finished in 3.01s (711.20ms CPU time)
+
+Ran 1 test suite in 3.92s (3.01s CPU time): [32m0[0m tests passed, [31m3[0m failed, [33m0[0m skipped (3 total tests)
+
+Failing tests:
+Encountered 3 failing tests in test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: EvmError: Revert][0m testMinimumDollarIsFive() (gas: 5144)
+[31m[FAIL. Reason: EvmError: Revert][0m testOwnerIsMsgSender() (gas: 5187)
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 5142)
+
+Encountered a total of [31m3[0m failing tests, [32m0[0m tests succeeded
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforge test --fork-url $SEPOLIA_RPC_URL[?2004l
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...3[2K[1m[[32m⠒[0m][0m Compiling...
+3[2K[1m[[32m⠢[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠔[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠑[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠘[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠃[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠊[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠒[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠢[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠆[0m][0m Compiling 2 files with 0.8.243[2K[1m[[32m⠰[0m][0m Compiling 2 files with 0.8.24
+3[2K[1m[[32m⠔[0m][0m Solc 0.8.24 finished in 1.21s
+Compiler run [32msuccessful![0m
+
+Ran 3 tests for test/FundMeTest.t.sol:FundMeTest
+[32m[PASS][0m testMinimumDollarIsFive() (gas: 5405)
+[31m[FAIL. Reason: assertion failed][0m testOwnerIsMsgSender() (gas: 26574)
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 10135)
+Suite result: [31mFAILED[0m. [32m1[0m passed; [31m2[0m failed; [33m0[0m skipped; finished in 3.06s (1.05s CPU time)
+
+Ran 1 test suite in 4.57s (3.06s CPU time): [32m1[0m tests passed, [31m2[0m failed, [33m0[0m skipped (3 total tests)
+
+Failing tests:
+Encountered 2 failing tests in test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: assertion failed][0m testOwnerIsMsgSender() (gas: 26574)
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 10135)
+
+Encountered a total of [31m2[0m failing tests, [32m1[0m tests succeeded
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004hforge test --fork-url $SEPOLIA_RPC_URL --vv   vvv[?2004l
+3[2K[1m[[32m⠃[0m][0m Compiling...3[2K[1m[[32m⠊[0m][0m Compiling...3[2K[1m[[32m⠒[0m][0m Compiling...
+No files changed, compilation skipped
+
+Ran 3 tests for test/FundMeTest.t.sol:FundMeTest
+[32m[PASS][0m testMinimumDollarIsFive() (gas: 5405)
+[31m[FAIL. Reason: assertion failed][0m testOwnerIsMsgSender() (gas: 26574)
+Logs:
+  0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38
+  0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38
+  Error: a == b not satisfied [address]
+        Left: 0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38
+       Right: 0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496
+
+Traces:
+  [26574] [32mFundMeTest[0m::[32mtestOwnerIsMsgSender[0m()[33m[0m
+    ├─ [2381] [32mFundMe[0m::[32mi_owner[0m()[33m [staticcall][0m
+    │   └─ [32m← [0mDefaultSender: [0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38]
+    ├─ [0] [32mconsole[0m::[32mlog[0m(DefaultSender: [0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38])[33m [staticcall][0m
+    │   └─ [32m← [0m()
+    ├─ [0] [32mconsole[0m::[32mlog[0m(DefaultSender: [0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38])[33m [staticcall][0m
+    │   └─ [32m← [0m()
+    ├─ [381] [32mFundMe[0m::[32mi_owner[0m()[33m [staticcall][0m
+    │   └─ [32m← [0mDefaultSender: [0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38]
+    ├─ emit [36mlog[0m(val: "Error: a == b not satisfied [address]")
+    ├─ emit [36mlog_named_address[0m(key: "      Left", val: DefaultSender: [0x1804c8AB1F12E6bbf3894d4083f33e07309d1f38])
+    ├─ emit [36mlog_named_address[0m(key: "     Right", val: FundMeTest: [0x7FA9385bE102ac3EAc297483Dd6233D62b3e1496])
+    ├─ [0] [34mVM[0m::[34mstore[0m(VM: [0x7109709ECfa91a80626fF3989D68f67F5b1DD12D], 0x6661696c65640000000000000000000000000000000000000000000000000000, 0x0000000000000000000000000000000000000000000000000000000000000001)[33m[0m
+    │   └─ [34m← [0m()
+    └─ [32m← [0m()
+
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 10135)
+Traces:
+  [10135] [31mFundMeTest[0m::[31mtestPriceFeedVersionIsAccurate[0m()[33m[0m
+    ├─ [5099] [31mFundMe[0m::[31mgetVersion[0m()[33m [staticcall][0m
+    │   ├─ [0] [32m0x694AA1769357215DE4FAC081bf1f309aDC325306[0m::[32mversion[0m()[33m [staticcall][0m
+    │   │   └─ [32m← [0m()
+    │   └─ [31m← [0mEvmError: Revert
+    └─ [31m← [0mEvmError: Revert
+
+Suite result: [31mFAILED[0m. [32m1[0m passed; [31m2[0m failed; [33m0[0m skipped; finished in 3.62s (1.38s CPU time)
+
+Ran 1 test suite in 5.77s (3.62s CPU time): [32m1[0m tests passed, [31m2[0m failed, [33m0[0m skipped (3 total tests)
+
+Failing tests:
+Encountered 2 failing tests in test/FundMeTest.t.sol:FundMeTest
+[31m[FAIL. Reason: assertion failed][0m testOwnerIsMsgSender() (gas: 26574)
+[31m[FAIL. Reason: EvmError: Revert][0m testPriceFeedVersionIsAccurate() (gas: 10135)
+
+Encountered a total of [31m2[0m failing tests, [32m1[0m tests succeeded
+[1m[7m%[27m[1m[0m                                                                                                                                                                                               [0m[27m[24m[Jkomronkhisomov@Komrons-Mac-mini foundry-fund-me-f23 % [K[?2004h
